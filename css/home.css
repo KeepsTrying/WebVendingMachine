@@ -1,0 +1,87 @@
+#items {
+	border: 1px green solid;
+	width: 100%;
+	height: 800px;
+}
+
+#merchDisplay {
+	border: 1px blue solid;
+	width: 70%;
+	height: 100%;
+}
+
+#formDisplay {
+	width: 30%;
+}
+
+div.merchDiv {
+	border: 1px orange solid;
+	width: 25%;
+	height: 120px;
+	margin-top: 12px;
+}
+
+div.slotNumDiv {
+	border: 1px black solid;
+	height: 20px;
+	width: 20px;
+}
+
+div.quantityDiv {
+	margin-top: 5%;
+}
+
+div.priceDiv {
+	margin-top: 5%;
+}
+
+
+.btn {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#itemNumEntry {
+	margin-top: 5px;
+}
+
+.displayBox {
+	height:34px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px black solid;
+}
+
+#messageDisplay {
+	width: 100%;
+}
+
+#creditDisplay{
+	width: 50%;
+}
+
+div {
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	padding-top: 4px;
+	padding-bottom: auto;
+}
+
+.title {
+	font-size: 20px;
+}
+
+#changeReturnDisplay {
+	width: 90%;
+	height: 90px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px black solid;
+}
+

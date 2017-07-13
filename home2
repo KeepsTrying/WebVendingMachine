@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/home.css" rel="stylesheet">
+    </head>
+   
+    <body>
+   
+        <div class="container">
+          <h1 id="mainHeading">Vending Machine</h1>
+		</div>
+
+<hr/>
+	
+		<div class="container" id="items">
+
+			<div class="col-sm-9" id="merchDisplay">
+				
+				
+					
+					<div class="buffer col-sm-1">
+					</div>
+
+					<div class="merch col-sm-2" id="1">
+					
+						<div class="slotNum">
+							1
+						</div>
+					
+						<div class="name">
+							Snickers
+						</div>
+					
+						<div class="price">
+							$1.85
+						</div>
+					
+						<div class="quantity">
+							Quantity Left: 9
+						</div>
+					
+					</div>
+
+					<div class="buffer col-sm-1">
+					</div>
+					
+					<div class="merch col-sm-2" id="2">
+						<div class="slotNum">
+							2
+						</div>
+						<div class="name">
+							M & M's
+						</div>
+						<div class="price">
+							$1.50
+						</div>
+						<div class="quantity">
+							Quantity Left: 2
+						</div>
+					</div>
+
+					<div class="buffer col-sm-1">
+					</div>			
+
+					<div class="merch col-sm-2" id="3">
+						<div class="slotNum">
+							3
+						</div>
+						<div class="name">
+							Pringles
+						</div>
+						<div class="price">
+							$2.10
+						</div>
+						<div class="quantity">
+							Quantity Left: 5
+						</div>
+					</div>
+
+					<div class="buffer col-sm-1">
+					</div>
+
+					<div class="merch col-sm-2" id="1">
+					
+						<div class="slotNum">
+							1
+						</div>
+					
+						<div class="name">
+							Snickers
+						</div>
+					
+						<div class="price">
+							$1.85
+						</div>
+					
+						<div class="quantity">
+							Quantity Left: 9
+						</div>
+					
+					</div>
+
+					<div class="buffer col-sm-1">
+					</div>
+					
+					<div class="merch col-sm-2" id="2">
+						<div class="slotNum">
+							2
+						</div>
+						<div class="name">
+							M & M's
+						</div>
+						<div class="price">
+							$1.50
+						</div>
+						<div class="quantity">
+							Quantity Left: 2
+						</div>
+					</div>
+
+					<div class="buffer col-sm-1">
+					</div>			
+
+					<div class="merch col-sm-2" id="3">
+						<div class="slotNum">
+							3
+						</div>
+						<div class="name">
+							Pringles
+						</div>
+						<div class="price">
+							$2.10
+						</div>
+						<div class="quantity">
+							Quantity Left: 5
+						</div>
+					</div>
+				
+
+
+			</div>
+
+			<div class="col-sm-3" id="formDisplay">
+				<div class="form-group" role="addCredit">
+					<div class="row title" id="credit">
+						$$ Credit $$
+					</div>
+
+					<div class="row displayBox" id="creditDisplay">
+						<p>Display Credit</p>
+					</div>
+
+
+					<div class="row">
+
+						<div class="col-sm-6">
+
+							<div type="button" class="btn btn-default" id="addDollar" value="1.00">
+								Add Dollar
+							</div>
+
+							<div type="button" class="btn btn-default" id="addDime" value=".10">
+								Add Dime
+							</div>
+
+						</div>
+
+
+
+						<div class="col-sm-6">
+							
+							<div type="button" class="btn btn-default" id="addQuarter" value=".25">
+								Add Quarter
+							</div>
+
+							<div type="button" class="btn btn-default" id="addNickel" value=".05">
+								Add Nickel
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		<hr/>
+
+				<div class="form-group" role="form" id="purchaseForm">
+					
+					
+
+
+
+
+
+
+
+
+					<div class="row title" id="messages">
+						Messages
+					</div>
+
+					<div class="row displayBox" id="messageBox">
+						<p>Display Message</p>
+					</div>
+
+					<div class="form-group row">
+
+						<label for="itemNumEntry" class="col-sm-3 col-form-label">
+								Item:
+						</label>
+						<div class="col-sm-9">
+							<input class="form-control col-sm-9" type="number" 
+								placeholder="Slot Number Entry" 
+								id="itemNumEntry">
+							</input>
+						</div>
+
+					</div>
+
+					<div class="row">
+					
+						<div class="btn btn-default">
+							Make Purchase
+						</div>
+					
+					</div>
+
+				</div>
+
+		<hr/>
+
+
+		<!-- Last Form   
+
+
+		display 	"Change"   title
+
+
+
+		display the output of change
+
+
+
+		button for change return
+
+
+
+
+		-->
+
+
+
+
+
+
+		</div>
+
+
+
+		            
+		     	</div>
+			        <script src="js/jquery-2.2.4.min.js"></script>
+					<script src="js/bootstrap.js"></script>
+			        <script src="js/home.js"></script>
+		    </body>
+		    
+		</html>
